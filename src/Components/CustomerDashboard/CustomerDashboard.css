@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Dashboard Container */
+  .dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  
+  
+  /* Main Content */
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .new-booking-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .new-booking-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Booking Section */
+  .booking-section {
+    padding: 20px;
+  }
+  
+  .current-booking,
+  .booking-history {
+    margin-bottom: 20px;
+    background-color: #e8f0fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-details {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .room-image {
+    width: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .details-btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .details-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .booking-info {
+    flex: 1;
+  }
+  
+  .booking-summary {
+    min-width: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-summary p {
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .booking-summary .total {
+    font-weight: bold;
+    color: #d9534f;
+  }
+  
+  /* Booking History Table */
+  .booking-history table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .booking-history th,
+  .booking-history td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .booking-history th {
+    background-color: #f0f4f8;
+    font-weight: bold;
+  }
+  
